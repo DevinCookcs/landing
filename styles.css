@@ -4,33 +4,82 @@
     box-sizing: border-box;
 }
 
-.top {
-    color: #E5E7EB;
+header {
     background-color: #1f2937;
     padding: 1em 13em;
 }
 
-.header {
+.navigation {
     display: flex;
     justify-content: space-between;
     align-items: baseline;  
 }
 
-.logo {
+#logo {
     font-size: 24px;
     font-weight: 900;
     color: #f9faf8;
 }
 
-.links {
+.navigation ul {
     font-size: 18px;
     color:#E5E7EB;
     display: flex;
     gap: 20px;
+    list-style-type: none;
 }
 
-.image-container {
-    
+.welcome {
+    padding: 7em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.welcome .left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.welcome .right {
+    flex-shrink: 0;
+    width: 50%;
+}
+
+.welcome-intro {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.welcome-subtext {
+    color: #E5E7EB;
+    font: 18px;
+}
+
+button {
+    padding: 7px 1em;
+    width: 120px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.welcome button{
+    border-radius: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.image-placeholder {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 215px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .photo-grid-info,
