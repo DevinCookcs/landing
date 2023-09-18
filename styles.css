@@ -1,1 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top,
+.first,
+.image-container,
+.quote-container,
+.call-container,
+.footer-container {
+    display: flex;
+    flex-direction: column;
+}
 
+.top {
+    color: #E5E7EB;
+    background-color: #1f2937;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    border: 1px solid #fff;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
